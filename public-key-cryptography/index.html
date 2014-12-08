@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Site Properities -->
+  <title>Public Key Cryptography | Learn Learnin'</title>
+  <meta property="og:title" content="Public Key Cryptography | Learn Learnin'" />
+  <meta property="og:description" content="Imagine you hold the key to an auto-locking lock. Anyone can send you a suitcase locked with that. But only you can open it." />
+  <meta name="description" content="Imagine you hold the key to an auto-locking lock. Anyone can send you a suitcase locked with that. But only you can open it." />
+  <meta name="keywords" content="learn, learning, cryptography, rsa, modular arithmetic, dh key exchange" />
+  <meta name="generator" content="DocPad v6.56.0" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,
+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" />
+  <link  rel="stylesheet" href="/main.css" /><link  rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cardo:400,400italic,700" /> 
+
+</head>
+<body>
+  <nav>
+    <a href="/" title="Go home">~</a> 
+    <a href="/about/#site-info" id="togglenavtools" title="Toggle site tools">»</a> 
+    <span id="navtools">
+      <a id="changefont" title="Change font" href="/about/#site-info">✍Change Font</a> |
+      <a href="" id="clearstorage"> Clear settings</a> | 
+      Search: <!--<a id="changefontsize" title="Change font size" href="/about/#site-info">±</a> <a href="/about/#site-info" id="changetheme" title="Change colors">☯</a>--> <form method="get" action="/search/"><input type="text" class="search-bar" name="keys" placeholder="Search terms" /><input type="submit" value="Go" /></form> 
+    </span>
+  </nav>
+  <header>
+    <h1><a class="linchor" href="">⚓</a>Public Key Cryptography </h1>
+  </header>
+  <article>
+    <p>There are two levels of understanding public key cryptography and assymmetric cryptography (which are very important in <a href="/security/">security</a></p>
+<ul>
+<li>The superficial details of <a href="#how-it-works">how it works</a> in practice</li>
+<li>The exciting <a href="#the-math-behind-it">math behind it</a></li>
+</ul>
+<p>They are both interesting and will be presented (with links of course) on this page.</p>
+<h2 id="how-it-works">How it works</h2>
+<p><a href="http://www.pgpi.org/doc/pgpintro/">PGP manual</a> gives a very simple introduction to cryptography leading to the inner workings of pgp. </p>
+<p>To be precise, all messages are encrypted with the recipients public key, and decrypted by the recipient using their own private key. The private key and public key are an intricately tied together unique pair of keys that can lock what the other closed and close what the other opens. </p>
+<p>To safely execute this algorithm, we make use of software like <code>gpg</code>. Enigmail plugin for thunderbird, and <a href="https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain">openkeychain</a> app for android along with <a href="https://play.google.com/store/apps/details?id=com.fsck.k9">k-9 mail</a> allows communication on computer and phone respectively. </p>
+<p>First, we create a key pair - <strong>the private key and the public key</strong>. Along with it, we also create a <strong>revokation certificate</strong> which we will keep separate and safe, so that in case we lose our keys (which is very likely for people like me) we could use the revokation certificate to establish our identity to say the key is no longer valid.</p>
+<p>GPG does not save the key in plaintext. It secures the key itself by encrypting it with a passphrase. Forgetting this passphrase is an easy way to lose your keys earlier on.</p>
+<p>We will add different identities inside this key. Different email addresses, mainly.</p>
+<p>Then, we submit our public key to various keyservers around the world, which will make our identity and public key searchable. Notice that anyone can create a key on <a href="http://pgp.mit.edu/pks/lookup?search=rms%40gnu.org&amp;op=index">anyone&#39;s identity</a> and therefore, verification of the key is an important and non-optional step. The verification is done by comparing key fingerprint, or asking a lot of people we trust to have verified others (web of trust - trusting the friend of friend of friend).</p>
+<p>Once we have a few public keys of our friends imported to our computer, we can send them messages encrypted with their public key such that only they can decrypt them. </p>
+<p>Encryption and decryption does not necessarily have to be within email communication. One can encrypt any piece of text or whatever and write the encrypted version (probably not write, maybe copy paste) and send them in any means to the recipient (USBs, floppys, CDs - remember spy movies?)</p>
+<h3 id="put-it-simply">Put it simply</h3>
+<p>Encryption is like locking something. They key is the only thing that can open the lock.</p>
+<p>Public key cryptography involves creation of special kinds of locks which can be locked with one key and opened with a different key. Distributing the locker key and keeping the opener key safe = successfully keeping secrets.</p>
+<p>Here is another, more detailed into to <a href="http://math.uchicago.edu/~mann/encryption.pdf">what it is, and some math behind it.</a></p>
+<h2 id="the-math-behind-it">The math behind it</h2>
+<p>To understand the math behind public key encryption, there are certain prerequisites.</p>
+<ul>
+<li><a href="http://www.math.rutgers.edu/~erowland/modulararithmetic.html">Modular arithmetic</a> - <a href="https://en.wikipedia.org/wiki/Modular_arithmetic">page on wikipedia</a></li>
+<li><a href="http://mathcircle.berkeley.edu/BMC3/rsa/node6.html">Fermat&#39;s theorem and Chinese remainder theorem</a></li>
+</ul>
+<p>Now we can read about the actual rsa math.</p>
+<ul>
+<li><a href="http://pajhome.org.uk/crypt/rsa/maths.html">a concise introduction</a></li>
+<li><a href="http://mathcircle.berkeley.edu/BMC3/rsa/node4.html">a somewhat detailed introduction</a></li>
+<li><a href="http://www.woodmann.com/crackz/Tutorials/Rsa.htm">one more concise text to recheck the understanding</a></li>
+</ul>
+<p>Congrats! Now you can move to setting up pgp on all your devices.</p>
+
+  </article>
+  <aside>
+  <hr />
+  <span class="share">
+    Share this page on: 
+    <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://learnlearn.in/public-key-cryptography/">fb</a> 
+    <a target="_blank" href="https://twitter.com/intent/tweet?url=http://learnlearn.in/public-key-cryptography/">twitter</a>
+    <a target="_blank" href="https://plus.google.com/share?url=http://learnlearn.in/public-key-cryptography/">g+</a>
+    <a class="mobileshare" href="tg://msg?text=Public Key Cryptography | Learn Learnin' - http://learnlearn.in/public-key-cryptography/">Telegram</a>
+    <a class="mobileshare" href="whatsapp://send?text=Public Key Cryptography | Learn Learnin' - http://learnlearn.in/public-key-cryptography/">Whatsapp</a>
+  </span>
+  <span class="nav">
+    Go back to <a href="/">Learn Learnin'</a>
+  </span>
+  </aside>
+  <script defer="defer"  src="/main.js"></script>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-33224149-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</body>
+</html>
