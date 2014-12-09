@@ -6,7 +6,6 @@
 <url> <loc>http://learnlearn.in/blogging/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/web/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/pain/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://learnlearn.in/computers/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/ai/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/mind/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/publichealth/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -17,10 +16,11 @@
 <url> <loc>http://learnlearn.in/health/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/docpad/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/eye-movements/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://learnlearn.in/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/ophthalmology/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/security/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/about/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/public-key-cryptography/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/quit-google/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://learnlearn.in/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://learnlearn.in/computers/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
