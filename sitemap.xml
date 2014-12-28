@@ -23,4 +23,7 @@
 <url> <loc>http://learnlearn.in/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/computers/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/quit-google/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://learnlearn.in/community-medicine/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://learnlearn.in/f-droid/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://learnlearn.in/free-android/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
