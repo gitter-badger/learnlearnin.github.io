@@ -3,7 +3,6 @@
 <url> <loc>http://learnlearn.in/search/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/404/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/blogging/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://learnlearn.in/web/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/pain/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/ai/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/mind/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -18,7 +17,6 @@
 <url> <loc>http://learnlearn.in/ophthalmology/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/security/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/public-key-cryptography/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://learnlearn.in/computers/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/quit-google/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/community-medicine/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/f-droid/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -30,4 +28,7 @@
 <url> <loc>http://learnlearn.in/issues-in-religion/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/feminism/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://learnlearn.in/web-development/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://learnlearn.in/web/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://learnlearn.in/computers/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
