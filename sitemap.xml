@@ -18,7 +18,6 @@
 <url> <loc>http://learnlearn.in/eye-movements/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/ophthalmology/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/security/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://learnlearn.in/about/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/public-key-cryptography/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/computers/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -27,4 +26,6 @@
 <url> <loc>http://learnlearn.in/f-droid/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/free-android/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://learnlearn.in/gulpjs/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://learnlearn.in/my-pgp-key/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://learnlearn.in/about/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
