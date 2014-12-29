@@ -86,23 +86,55 @@ aside{
   background-color: #ccc;
 }
 
-
-
 .nav{
   float:right;
 }
-.linchor{
+.linchor, .permalink{
   text-decoration: none;
   position:absolute;
-  margin-left:-20px;
-  padding-top:20px;
-  font-size: 20px;
+  margin-left:-30px;
   opacity:0.1;
 }
-.linchor:hover{
-  opacity: 1;
+.linchor:hover, .permalink:hover {
+  opacity: 0.75;
+  border-bottom: none;
 }
 
+.permalink{
+  margin-left:-23px;
+  padding-top:10px;
+  opacity: 0.2;
+}
+
+/* http://www.webmaster-source.com/2012/04/24/pure-css-blockquote-styling/ */
+blockquote {
+  font-style: italic;
+  width: 90%;
+  margin: 0.25em 0;
+  padding: 0.25em 5%;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 100px;
+  position: absolute;
+  left: -30px;
+  top: -20px;
+  color: #7a7a7a;
+}
+blockquote footer {
+  color: #999999;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote footer:before {
+  content: "\2014 \2009";
+}
 
 @media all and (max-width: 900px){
   nav,header,article,aside,#toc{
@@ -127,5 +159,11 @@ aside{
   }
   ul{
     padding:0;
+  }
+  .linchor{
+    margin-left: -15px;
+  }
+  .permalink{
+    margin-left: -20px;
   }
 }
